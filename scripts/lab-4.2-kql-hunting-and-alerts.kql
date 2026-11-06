@@ -1,0 +1,5 @@
+// In law-infra > Logs, let's find the failed logons:
+Event
+| where EventLog == "Security" and EventID == 4625
+| summarize Failures = count() by Computer, bin(TimeGenerated, 10m)
+| where Failures > 20

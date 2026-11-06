@@ -1,0 +1,14 @@
+# Editors, OS files and local lab artefacts
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Never commit exported secrets or keys from your own lab runs
+*.pfx
+*.pem
+*.key
+*.cer
+*recovery*.txt
+*BitLocker*.txt

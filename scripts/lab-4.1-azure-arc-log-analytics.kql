@@ -1,0 +1,4 @@
+// Wait 10 minutes, then open law-infra > Logs and run:
+Heartbeat
+| where Computer startswith "SEA-SVR1"
+| take 5
