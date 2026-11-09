@@ -1,4 +1,4 @@
-# Windows Server Security Lab (AZ-801)
+# Windows Server 2025 Security Lab 
 
 ![Windows Server 2025](https://img.shields.io/badge/Windows%20Server-2025-0078D4)
 ![Exam](https://img.shields.io/badge/exam-AZ--801-5C2D91)
