@@ -6,7 +6,7 @@ You made it to the end. Well done!
 
 Let's look back for a moment. Did you notice that no single control stops every attack? Credential Guard doesn't help against a stolen disk. BitLocker doesn't help against password spraying. That's the whole idea of **defence in depth**: many layers, so when one fails, the next one catches the attacker.
 
-Here's a quick review. Cover the middle column with your hand, read the attack, and try to name the control yourself. If you can, you're ready for the exam, and for the real world.
+Here's a quick review. Cover the middle column with your hand, read the attack, and try to name the control yourself. If you can, you're ready for the real world.
 
 | Attack | Control that stops or detects it | Lab |
 |---|---|---|
@@ -32,4 +32,4 @@ Here's a quick review. Cover the middle column with your hand, read the attack, 
 
 One last piece of advice. Don't just read these labs. **Break things.** Play the hacker, try to get around your own controls, and see what happens. That's where the real learning is.
 
-Good luck with your AZ-801 exam!
+Good luck in the field!

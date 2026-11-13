@@ -1,7 +1,6 @@
 # Windows Server 2025 Security Lab 
 
 ![Windows Server 2025](https://img.shields.io/badge/Windows%20Server-2025-0078D4)
-![Exam](https://img.shields.io/badge/exam-AZ--801-5C2D91)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-2671BE)
 ![Azure](https://img.shields.io/badge/Azure-Arc%20%C2%B7%20Sentinel%20%C2%B7%20Defender-0089D6)
 ![Labs](https://img.shields.io/badge/labs-25-2EA043)
@@ -121,7 +120,7 @@ flowchart LR
 | | |
 |---|---|
 | Host | A Hyper-V host able to run four VMs at once (three Windows Server 2025, one Windows 11 Enterprise), all Generation 2 with Secure Boot and a virtual TPM |
-| Azure | Free trial subscription, resource group `az801-rg`, Microsoft Entra ID P2 trial (needed by the Azure labs: 1.6, 2.2, 4.1 to 4.4, 6.3) |
+| Azure | Free trial subscription, resource group `seclab-rg`, Microsoft Entra ID P2 trial (needed by the Azure labs: 1.6, 2.2, 4.1 to 4.4, 6.3) |
 | Microsoft 365 | E5 trial for Defender for Identity (Lab 3.4) |
 | Time | The labs that need Azure or Microsoft 365 trials are the ones that expire: plan them together |
 
@@ -153,7 +152,7 @@ windows-server-security-lab/
 
 ## Source and status
 
-The lab text comes from the course document *How to Master Windows Server Security (AZ-801)* (author: Mohamed), converted to Markdown without changing its content, except for the few places marked **⚠️ Added by this repository**, listed in [`docs/REVIEW-NOTES.md`](docs/REVIEW-NOTES.md) together with points to double-check against current Microsoft documentation. Product names and portal paths change often: where the course adds a *2025 note*, it is kept as a 📌 note.
+The lab text comes from the course document *How to Master Windows Server Security* (author: Mohamed), converted to Markdown without changing its content, except for the few places marked **⚠️ Added by this repository**, listed in [`docs/REVIEW-NOTES.md`](docs/REVIEW-NOTES.md) together with points to double-check against current Microsoft documentation. Product names and portal paths change often: where the course adds a *2025 note*, it is kept as a 📌 note.
 
 ## License
 

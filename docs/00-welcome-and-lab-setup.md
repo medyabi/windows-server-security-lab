@@ -82,7 +82,7 @@ Add-ADGroupMember "Domain Admins" -Members Adam, John
 
 On SEA-CL1, add **RSAT** (the admin tools): *Settings > System > Optional features > Add a feature*, search for **RSAT**, add Active Directory and Group Policy tools.
 
-For the Azure chapters you need an **Azure free trial** subscription, a **Microsoft Entra ID P2 trial**, and a resource group called **az801-rg**.
+For the Azure chapters you need an **Azure free trial** subscription, a **Microsoft Entra ID P2 trial**, and a resource group called **seclab-rg**.
 
 Last tip: take a **checkpoint** of every VM and call it *Baseline*. Some labs can lock you out of a server. With a checkpoint, you're back in 30 seconds.
 

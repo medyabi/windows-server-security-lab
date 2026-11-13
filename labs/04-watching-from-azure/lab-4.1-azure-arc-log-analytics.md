@@ -7,7 +7,7 @@
 | **Attack** | Attacker clears the Security log |
 | **Control** | Azure Arc + Azure Monitor Agent -> Log Analytics |
 | **Machines** | SEA-SVR1 |
-| **Needs** | Azure subscription (resource group az801-rg) |
+| **Needs** | Azure subscription (resource group seclab-rg) |
 | **Checkpoint first** | Recommended (see lab setup) |
 | **Scripts** | [`scripts/lab-4.1-azure-arc-log-analytics.ps1`](../../scripts/lab-4.1-azure-arc-log-analytics.ps1) |
 
@@ -33,8 +33,8 @@ The Security events are copied to Azure within minutes. Clearing the local log d
 
 ## 🧪 Step by step
 
-1. In the Azure portal, create two **Log Analytics workspaces** in **az801-rg**: **law-infra** and **law-sentinel**.
-2. Go to **Azure Arc > Machines > Add/Create > Add a single server > Generate script**. Choose **az801-rg**, your region, **Windows**, and **Public endpoint**.
+1. In the Azure portal, create two **Log Analytics workspaces** in **seclab-rg**: **law-infra** and **law-sentinel**.
+2. Go to **Azure Arc > Machines > Add/Create > Add a single server > Generate script**. Choose **seclab-rg**, your region, **Windows**, and **Public endpoint**.
 3. Copy the script to SEA-SVR1 and run it in an elevated PowerShell. It asks you to sign in with a device code at `https://microsoft.com/devicelogin`.
 4. Back in the portal, SEA-SVR1 shows as **Connected** under Azure Arc.
 
